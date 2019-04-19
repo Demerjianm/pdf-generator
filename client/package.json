@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
+    "@reach/router": "^1.2.1",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "axios": "^0.18.0",
+    "react": "@next",
+    "react-dom": "@next",
+    "react-scripts": "2.1.1",
+    "typescript": "^3.2.2"
+  },
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
